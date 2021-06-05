@@ -1,0 +1,23 @@
+{
+  "name": "newman-test-runner",
+  "version": "1.0.0",
+  "description": "Test runner for postman collections using newman cli, can be triggered using http endpoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jishnu-purath/newman-test-runner.git"
+  },
+  "author": "Jishnu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jishnu-purath/newman-test-runner/issues"
+  },
+  "homepage": "https://github.com/jishnu-purath/newman-test-runner#readme",
+  "dependencies": {
+    "newman": "^5.2.3"
+  }
+}

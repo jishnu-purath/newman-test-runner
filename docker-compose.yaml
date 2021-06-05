@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  newman-test-runner:
+    build: 
+      context: .
+    ports:
+      - "8080:8080"
+    restart: always
+    #environment:
+      # PATH_TO_COLLECTION: "/path/to/collection.json"
+      
